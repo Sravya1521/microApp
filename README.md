@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Packaging and Publishing into npm
+Make sure there is no version mismatch
+run  $ npm run packagr
+
+dist folder has been created 
+$ cd dist
+npm pack
+npm login
+npm publish
